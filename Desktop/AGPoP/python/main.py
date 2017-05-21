@@ -27,7 +27,6 @@ def project(path):
 		sys.exit()
 	
 	current_path = copy_files(path)
-	
 	print(COLORS.magenta+"[*]For pushing file to commit write [Default (Add files via upload) hit enter]"+COLORS.black)
 	ans = raw_input()
 
