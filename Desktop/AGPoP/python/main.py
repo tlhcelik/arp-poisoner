@@ -30,7 +30,7 @@ def project(path):
 	ans = raw_input()
 	
 	if len(ans) == 0:
-		linux("git commit -m \"Via File Upload\"")
+		linux("git commit -m \"Via File Upload\" {0}".format(path))
 	else:
 		linux("git commit -m {0}".format(str(ans)))
 		
